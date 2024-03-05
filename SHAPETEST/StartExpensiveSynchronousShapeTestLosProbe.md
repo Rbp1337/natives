@@ -21,9 +21,9 @@ Use [START_SHAPE_TEST_LOS_PROBE](#_0x7EE9F5D83DD4F90E) instead. Literally. Rocks
 * **x2**: Ending X coordinate.
 * **y2**: Ending Y coordinate.
 * **z2**: Ending Z coordinate.
-* **flags**: See [START_SHAPE_TEST_LOS_PROBE](#_0x7EE9F5D83DD4F90E).
-* **entity**: An entity to ignore, or 0.
-* **p8**: A bit mask with bits 1, 2 and/or 4, relating to collider types. 4 should usually be used.
+* **LOSFlags**: See [START_SHAPE_TEST_LOS_PROBE](#_0x7EE9F5D83DD4F90E).
+* **nExcludeEntityIndex**: An entity to ignore, or 0.
+* **nOptionFlags**: A bit mask with bits 1, 2 and/or 4, relating to collider types. 4 should usually be used.
 
 ## Return value
 A shape test handle.
